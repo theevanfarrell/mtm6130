@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Demo</title>
+</head>
+<body>
+    <header id="top">
+        <h1>Week 4 Demo</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Images</h2>
+            <img src="images/coffee-shop.jpg" alt="steaming cup of coffee">
+        </article>
+        <article>
+            <h2>Links</h2>
+            <p>Lorem, ipsum dolor sit amet <a href="http://google.ca" target="_blank">Google</a> consectetur adipisicing elit. Eveniet repellat excepturi id. Aliquid, at necessitatibus? Minus <a href="page2.html">Page 2</a> reprehenderit doloremque libero dolorum placeat culpa cupiditate earum, alias explicabo vel veniam illo quaerat?</p>
+        </article>
+        <article>
+            <h2>Tables</h2>
+            <table>
+                <caption>IMD Students</caption>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rob Kingsbury</td>
+                        <td>12345</td> 
+                    </tr>
+                    <tr>
+                        <td>Evan Farrell</td>
+                        <td>041067287</td>
+                    </tr>
+                    <tr>
+                        <td>Jess Hyugh</td>
+                        <td>048511677</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>Forms</h2>
+            <form action="#" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fname"> 
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age"> 
+                </div>
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                <div>
+                    <label for ="programs">Program</label>
+                    <select id="programs" name="prog">
+                        <option value="imd">IMD</option>
+                        <option value="gd">Graphic Design</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fruit">Fruit</label>
+                    <input type="checkbox" id="fruit" name="fruit" checked>
+
+                    <label for="sushi">Sushi</label>
+                    <input type="checkbox" id="sushi" name="sushi">
+
+                    <label for="burgers">Burgers</label>
+                    <input type="checkbox" id="burgers" name="burgers">
+                </div>
+                <div>
+                    <h3>what province are you from?</h3>
+                    <label for="ontario">Ontario</label>
+                    <input type="radio" id="ontario" name="prov" value="ont">
+
+                    <label for="quebec">Quebec</label>
+                    <input type="radio" id="quebec" name="prov" value="que">
+                </div>
+                <div>
+                    <button type="submit">SEND IT</button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2022. <a href="#top">To The Top &uarr;</a></p>
+    </footer>
+    
+</body>
+</html>
