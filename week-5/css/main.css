@@ -30,7 +30,22 @@ footer p{
     text-align: center;
 }
 
+body p {
+    font-size: 200%;
+}
+
 /* attribute selector*/
 a[href="http://algonquincollege.com"]{
     text-decoration: none;
+}
+
+/* pseudo class */
+a:link, a:visited {
+    color:red;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color:blueviolet;
 }
