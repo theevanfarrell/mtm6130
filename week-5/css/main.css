@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    font-size: 200%;
+}
+
+.emphasis{
+    font-style: italic;
+}
+
+.warning {
+    color: red;
+}
+
+#primary {
+    font-weight: bold;
+    color:green;
+}
+
+/* change headiing colour */
+h1, h2 {
+    color:floralwhite;
+}
+
+/* decendancy selector*/
+footer p{
+    font-size: 50%;
+    text-align: center;
+}
+
+/* attribute selector*/
+a[href="http://algonquincollege.com"]{
+    text-decoration: none;
+}
