@@ -10,3 +10,7 @@ header, footer {
 .site-title {
     color: white;
 }
+
+#my-image {
+    box-shadow: 1px 2px black;  
+} 
