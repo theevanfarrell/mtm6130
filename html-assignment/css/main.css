@@ -1,34 +1,43 @@
+/*changes all text in the body tag to selected size and font*/
 body {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*changes the background colour for the header and footer of the page*/
 header, footer {
     background-color: burlywood;
 }
 
+/*creates a classification for the site title, making it selected colour*/
 .site-title {
     color: white;
 }
 
+/*creates a box shadow under the image*/
 #my-image {
     box-shadow: 1px 2px black;
 }
 
+/*states that every odd child of a list should have the selected background colour*/
 ul li:nth-child(odd) {
     background: wheat;
 }
 
+/*states that each linked page should not have an unberline and should have coloured background with a radius around it*/
 a[href]{
     text-decoration: none;
     background: cornsilk;
     border: 2px solid black;
     border-radius: 3px;
 }
+
+/*states that when a link is hovered on, the background colour changes to selected colour*/
 a:hover{
    background-color: lightblue; 
 }
 
+/*states that when a link is clicked, the background colour changes to selected colour*/
 a:focus {
     background-color: lightcyan;
 }
