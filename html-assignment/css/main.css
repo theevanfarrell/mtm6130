@@ -28,3 +28,7 @@ a[href]{
 a:hover{
    background-color: lightblue; 
 }
+
+a:focus {
+    background-color: lightcyan;
+}
