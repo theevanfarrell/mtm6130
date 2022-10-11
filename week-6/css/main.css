@@ -15,7 +15,8 @@ body {
 .wrapper {
     width: 750px;
     margin: auto;
-    background-color: rgba(255,255,255,0.65);
+    background-color: rgba(255,255,255,0.75);
+    background-image: url('../images/white_brick_wall.png');
 }
 
 header h1 {
