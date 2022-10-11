@@ -3,6 +3,11 @@ body {
     line-height: 1.5;
 }
 
+.wrapper {
+    width: 750px;
+    margin: auto;
+}
+
 header h1 {
     text-transform: uppercase;
 }
