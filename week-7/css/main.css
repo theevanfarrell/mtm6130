@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: black;
+    color: white;
+}
+
 .box{
     background-color: #369;
     width: 200px;
@@ -17,7 +22,6 @@
 }
 
 .wrapper{
-    background-color: #ccc;
     width: 400px;
     margin: 0 auto;
 }
