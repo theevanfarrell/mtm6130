@@ -56,3 +56,8 @@ nav ul li {
     top: 25px;
     left: 20px;
 }
+
+.columns > div {
+    width: 50%;
+    float: left;
+}
