@@ -1,9 +1,23 @@
+/* defeat box model */
+*{
+    box-sizing: border-box;
+}
+
 .box{
     background-color: #369;
     width: 200px;
-    color: #fff;
+    height: 200px;
+    color: #000;
     /* box model properties */
     padding: 10px;
     border: 2px solid darkred;
     margin: 20px;
+    /* overflow */
+    overflow: scroll;
+}
+
+.wrapper{
+    background-color: #ccc;
+    width: 400px;
+    margin: 0 auto;
 }
