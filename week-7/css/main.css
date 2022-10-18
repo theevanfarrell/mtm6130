@@ -2,4 +2,8 @@
     background-color: #369;
     width: 200px;
     color: #fff;
+    /* box model properties */
+    padding: 10px;
+    border: 2px solid darkred;
+    margin: 20px;
 }
