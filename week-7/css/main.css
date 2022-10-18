@@ -8,6 +8,11 @@ header{
     color: white;
 }
 
+nav ul li {
+    display: inline;
+    background-color: red;
+}
+
 .box{
     background-color: #369;
     width: 200px;
