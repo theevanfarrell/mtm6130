@@ -16,7 +16,7 @@ header, footer {
 
 /*creates a box shadow under the image*/
 #my-image {
-    box-shadow: 1px 2px black;
+    box-shadow: 0px 0px 2px 1px black;
 }
 
 /*states that every odd child of a list should have the selected background colour*/
