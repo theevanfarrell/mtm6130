@@ -1,0 +1,8 @@
+.wrapper {
+    background-image: url('../images/lone-starfish-wide.jpg');
+    height: 340px;
+    width: 1024px;
+    background-position: center;
+    margin: auto;
+    background-size: cover;
+}
