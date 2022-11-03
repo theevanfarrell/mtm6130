@@ -7,17 +7,18 @@ body {
     background-color: #aad4cf;
 }
 
-*{
-    box-sizing: border-box;
-}
-
-.wrapper {
+.banner {
     height: 340px;
     width: 1024px;
     background-image: url('../images/lone-starfish-wide.jpg');
     background-position: center;
-    background-size: cover;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
 }
 
 header h1 {
@@ -31,10 +32,10 @@ nav ul li {
     font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    padding-top: 90px;
-    padding-left: 20px;
+    padding: 12px;
     display: inline-block;
     margin: 0 auto;
     width: 30%;
     height: 100px;
+
 }
