@@ -95,7 +95,6 @@ form p {
 form {
   width: 1000px;
   border: 2px solid black;
-  padding-bottom: 10px;
   padding-left: 12px
 }
 
@@ -117,10 +116,17 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.8rem;    
+    font-size: 0.75rem;    
+}
+
+.visit {
+    font-size: 1.4rem;
+}
+.spacers {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {
-    padding-top: 20px;
     text-align:right;
 }
