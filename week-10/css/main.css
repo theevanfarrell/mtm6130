@@ -1,0 +1,48 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************
+Parenting for Flexbox
+********************/
+.container {
+    /*This is the property that is required to start using the flexbox module in CSS*/
+    display: flex;
+    /*max-width: 300px;*/
+
+    /*Flex wrap is used to allow children to wrap*/
+    flex-wrap: wrap;
+    
+    /*Flex direction: row/row-reverse/column/column-reverse*/
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    padding: 5px;
+    background-color: #4980d2;
+}
+
+/********************
+Children for Flexbox
+********************/
+.box {
+    padding: 2rem;
+    margin: 5px;
+    background-color: #cee3fe;
+    text-align: center;
+}
+
+.one {
+    
+}
+
+.two {
+    
+}
+
+.three {
+    
+}
+
+.four {
+    
+}
