@@ -12,13 +12,22 @@ Parenting for Flexbox
     /*max-width: 300px;*/
 
     /*Flex wrap is used to allow children to wrap*/
-    flex-wrap: wrap;
-    
+    flex-wrap: nowrap;
+
     /*Flex direction: row/row-reverse/column/column-reverse*/
     flex-direction: row;
+
+    /*Justify content: flex-start/flex-end/center/space-around/space-between/space-evenly*/
+    justify-content: flex-start;
+
+    /*Align items: stretch/flex-start/flex-end/center/baseline*/
+    align-items: stretch;
+
+    /*Styled box*/
     margin: 0 0 50px 0;
     padding: 5px;
     background-color: #4980d2;
+    /*height: 250px*/
 }
 
 /********************
@@ -29,20 +38,36 @@ Children for Flexbox
     margin: 5px;
     background-color: #cee3fe;
     text-align: center;
+
+/*Three properties control flex items to dynamically adjust to its container */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
+/*.box:nth-child(2n) {
+    padding-top: 85px;
+}*/
+
 .one {
-    
+    order: 1;
+
+    /*property that is used on individual flex items*/
+    align-self: center;
 }
 
 .two {
-    
+    align-self: flex-end;
 }
 
+/*Shorthand for flex item sizing*/
 .three {
-    
+    flex: 1 1 0;
+    order: -2;
 }
 
+/*items order with a default of 0*/
 .four {
-    
+    flex: 4 1 0;
+    order: -1;
 }
