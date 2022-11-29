@@ -17,12 +17,12 @@
 <body>
     <header>
         <!-- displays the company logo, the navigation and a search bar with a magnifying glass -->
-        <div>
+        <div id="home">
             <img src="images/logo.png" alt="company logo">
         </div>
         <div>
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#aboutus">About Us</a></li>
                     <li><a href="#services">Services</a></li>
@@ -32,7 +32,7 @@
             </nav>   
         </div>
         <div>
-            <form id="form" role="search">
+            <form id="form" role="search" class="search_btn">
                 <input type="search" id="query" name="search" placeholder="Search">
                 <button>
                     <i class="glyphicon glyphicon-search"></i>
@@ -41,26 +41,26 @@
         </div>
     </header>
 
-    <div>
+    <div class="introduction">
 <!-- displays welcome to three star media, a paragraph of lorem, and a connect with us button -->
         <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus sed provident soluta! Consequatur laudantium, alias odio voluptatum earum natus molestias porro temporibus quidem fugiat amet, ducimus recusandae at. Maiores?</p>
-        <button type="button">
+        <button type="button" class="intro_button">
             Connect with us
             <i class="material-icons">play_arrow</i>
         </button>
     </div>
-    <div>
+    <div class="services_container">
 <!-- displays the about us imange, an about us header, and two paragraphs of lorem-->        
         <img src="images/about-us.jpg" alt="pingpong table">
-        <h2>About Us</h2>
+        <h2 id="aboutus">About Us</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti libero quo, accusamus excepturi et cumque, sunt aperiam, esse beatae veritatis cupiditate facilis doloremque enim rerum iure minus sapiente harum. Dignissimos?</p>
         <p>Provident deserunt molestias id nam numquam, atque autem voluptatem cupiditate quidem! Ducimus reprehenderit velit aspernatur, earum ex aliquid exercitationem ratione rerum natus distinctio totam fuga voluptas impedit corporis quos sit?</p>
     </div>
     <div>
         <!-- displays our services, seperate div from the rest of the sections below for easier css work in relation to the background colour-->
-        <h2>Our Services</h2>
-        <div>
+        <h2 id="services">Our Services</h2>
+        <div class="services_container">
 <!-- displays the digital transformation image, header, a paragraph of lorem, and a digital plans button -->
             <img src="images/digital.jpg" alt="woman using laptop and phone">
             <h3>Digital Transformation</h3>
@@ -70,7 +70,7 @@
                 <i class="material-icons">play_arrow</i>
             </button>
         </div>
-        <div>
+        <div class="services_container">
 <!-- displays the marketing image, header, a paragraph of lorem, and a marketing plans button -->
             <img src="images/marketing.jpg" alt="laptop with diagrams on screen">
             <h3>Marketing</h3>
@@ -80,7 +80,7 @@
                 <i class="material-icons">play_arrow</i>
             </button>
         </div>
-        <div>
+        <div class="services_container">
 <!-- displays the video production image, header, a paragraph of lorem, and a video plans button -->
             <img src="images/video.jpg" alt="phone with youtube logo">
             <h3>Video Production</h3>
@@ -90,7 +90,7 @@
                 <i class="material-icons">play_arrow</i>
             </button>
         </div>
-        <div>
+        <div class="services_container">
 <!-- displays the web development image, header, a paragraph of lorem, and a web plans button -->
             <img src="images/web.jpg" alt="phone with instagram log in screen">
             <h3>Web Development</h3>
@@ -100,7 +100,7 @@
                 <i class="material-icons">play_arrow</i>
             </button>
         </div>
-        <div>
+        <div class="services_container">
 <!-- displays the print image, header, a paragraph of lorem, and a print plans button -->
             <img src="images/print.jpg" alt="several newspaper stands">
             <h3>Print</h3>
@@ -110,7 +110,7 @@
                 <i class="material-icons">play_arrow</i>
             </button>
         </div>
-        <div>
+        <div class="vision_container">
 <!-- displays our vision header, a paragraph of lorem, and a learn more button -->
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempora at ipsa eius unde, sapiente dicta deserunt necessitatibus facere modi commodi nam sunt provident possimus enim debitis iure incidunt harum.</p>
@@ -123,15 +123,15 @@
 
     <div>
         <!-- displays our team, seperate div from the rest of the sections below for easier css work in relation to the background colour-->
-        <h2>Our Team</h2>
-        <div>
+        <h2 id="team">Our Team</h2>
+        <div class="team_container">
 <!-- displays john doe image, header, and a paragraph of lorem -->
             <img src="images/john.jpg" alt="John Doe, CEO">
             <h3>John Doe</h3>
             <h5>CEO and Co-owner</h5>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, error repellendus aliquid debitis vel, unde nemo quo ullam sequi velit enim deleniti et, veritatis voluptatibus esse dicta! Id, placeat illum!</p>
         </div>
-        <div>
+        <div class="team_container">
 <!-- displays bob rite image, header, and a paragraph of lorem -->
             <img src="images/bob.jpg" alt="Bob Rite, CFO">
             <h3>Bob Rite</h3>
@@ -142,7 +142,7 @@
 
 <!-- displays contact us and send us a message, followed by text boxes for your name, email and message. after that it's followed by a submit button -->
     <div>
-        <h2>Contact Us</h2>
+        <h2 id="contact">Contact Us</h2>
         <h3>Send us a message</h3>
         <form action="#" method="get">
             <div>
@@ -160,12 +160,12 @@
                 <label for="message"></label>
                 <textarea id="message" name="message" class="messagebox"></textarea>
             </div>
-            <button type="submit">Send</button>
+            <button class="contact_button" type="submit">Send</button>
         </form>
     </div>
 
 <!-- displays an hours of operation chart -->
-    <div>
+    <div class="hours_chart">
         <h3>Hours of operation</h3>
         <table>
             <tr>
@@ -184,7 +184,7 @@
     </div>
 
 <!-- displays the location of algonquin college -->
-    <div>
+    <div class="location">
         <h3>Location</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74458.46422737325!2d-75.84714850986862!3d45.35137527810541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669661560849!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
