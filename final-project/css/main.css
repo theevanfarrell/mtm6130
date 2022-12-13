@@ -7,6 +7,12 @@ header {
     padding: 10px;
 }
 
+.banner {
+    width: auto;
+    height: auto;
+    background-color: #c78c06;
+}
+
 nav ul li a {
     text-decoration: none;
     color: #c78c06;
@@ -18,9 +24,10 @@ nav ul li:nth-child(1) a {
 
 @media screen and (max-width: 760px) {
     .nav {
-        display: grid;
-        justify-content: center;
+        display:inline-block;
         text-align: center;
+        justify-content: center;
+        width:100%;
     }
 
 }
