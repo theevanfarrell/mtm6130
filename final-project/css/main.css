@@ -22,12 +22,30 @@ nav ul li:nth-child(1) a {
     color: #222;
 }
 
+.search_btn {
+    padding-top: 6px;
+    width: 93%;
+    height: 40px;
+}
+
+.search {
+    background-color: #222;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #c78c06;
+}
+
+.glyphicon-search {
+    color: #c78c06;
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 760px) {
     .nav {
         display:inline-block;
         text-align: center;
         justify-content: center;
-        width:100%;
+        width: 100%;
     }
 
 }
