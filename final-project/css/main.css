@@ -43,6 +43,26 @@ nav ul li:nth-child(1) a {
     font-size: 2rem;
 }
 
+.introduction {
+    background-image: url('../images/main-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-size: 7rem;
+    padding-top: 10px;
+    color: white;
+}
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 60px;
+    margin: auto;
+    width: 100%;
+}
 @media screen and (max-width: 760px) {
     .nav {
         display:inline-block;
