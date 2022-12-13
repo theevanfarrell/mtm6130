@@ -77,7 +77,7 @@ h1 {
     width: 100%;
 }
 
-.about_img {
+.all_img {
     width: 100%;
     height: auto;
 }
@@ -92,6 +92,23 @@ h2 {
     font-size: 4rem;
     font-weight: 700;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.services_container {
+    width: 100%;
+    background-color: #ffe6ac;
+}
+
+.services_padding {
+    padding: 10px;
+}
+
+.all_buttons {
+    background-color: #222;
+    color: white;
+    font-size: 2rem;
+    padding: 25px;
 }
 @media screen and (max-width: 760px) {
     .nav {
