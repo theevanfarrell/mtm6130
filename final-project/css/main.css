@@ -252,6 +252,14 @@ footer {
     }
 
     .container {
-        width: 85%
+        width: 85%;
+    }
+    
+    .all_img {
+        width: 50%;
+    }
+    
+    .about_container{
+        display: flex;
     }
 }
