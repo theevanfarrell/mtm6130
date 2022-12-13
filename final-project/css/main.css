@@ -54,17 +54,25 @@ nav ul li:nth-child(1) a {
 
 h1 {
     font-size: 7rem;
-    font-weight: 200;
+    font-weight: 700;
     padding-top: 10px;
 }
 
 .intro_text {
     color: white;
-
 }
+
+.intro_button {
+    background-color: #c78c06;
+    color: black;
+    font-size: 2rem;
+    padding: 25px;
+}
+
 .container {
     background: rgba(0, 0, 0, 0.7);
     padding-top: 60px;
+    padding-bottom: 15px;
     margin: auto;
     width: 100%;
 }
