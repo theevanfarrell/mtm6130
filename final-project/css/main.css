@@ -76,6 +76,23 @@ h1 {
     margin: auto;
     width: 100%;
 }
+
+.about_img {
+    width: 100%;
+    height: auto;
+}
+
+.about_container {
+    width: 100%;
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 10px;
+}
 @media screen and (max-width: 760px) {
     .nav {
         display:inline-block;
