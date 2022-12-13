@@ -98,11 +98,18 @@ h2 {
 .services_container {
     width: 100%;
     background-color: #ffe6ac;
+    margin: 10px;
 }
 
 .services_padding {
     padding: 10px;
 }
+
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 
 .all_buttons {
     background-color: #222;
