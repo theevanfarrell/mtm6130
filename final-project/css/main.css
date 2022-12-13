@@ -154,6 +154,14 @@ h5 {
     width: 99%;
     height: 30px;
     margin-bottom: 8px;
+    border: 2px solid black;
+}
+
+.messagebox {
+    width: 99%;
+    height: 130px;
+    margin-bottom: 8px;
+    border: 2px solid black;
 }
 
 @media screen and (max-width: 760px) {
