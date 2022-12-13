@@ -164,6 +164,17 @@ h5 {
     border: 2px solid black;
 }
 
+.contact_button{
+    background-color: #222;
+    color: #c78c06;
+    font-size: 1.75rem;
+}
+
+.contact_padding {
+    margin-left: 5px;
+}
+
+
 @media screen and (max-width: 760px) {
     .nav {
         display:inline-block;
