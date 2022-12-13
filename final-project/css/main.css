@@ -13,6 +13,13 @@ header {
     background-color: #c78c06;
 }
 
+.nav {
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
 nav ul li a {
     text-decoration: none;
     color: #c78c06;
@@ -204,12 +211,47 @@ footer {
     text-decoration: underline;
     color: #c78c06;
 }
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 760px) {
     .nav {
-        display:inline-block;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding: 2.5%;
+        width: 130%;
     }
 
+    .banner {
+        height: 0;
+        margin-bottom: 60px;
+    }
+
+    .logo {
+        
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 60px;
+    }
+    
+    .search_bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 220px;
+    }
+    header {
+        display: flex;
+    }
+
+    nav ul li:nth-child(1) a {
+        background-color: #c78c06;
+    }
+
+    .container {
+        width: 85%
+    }
 }
