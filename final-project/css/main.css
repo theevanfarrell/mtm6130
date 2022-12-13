@@ -119,12 +119,16 @@ h3 {
 }
 
 .vision_container{ 
-    width: 100%;
+    width: 103%;
     background-image: url('../images/vision.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 10px;
+}
+
+.vision {
+    color: white;
 }
 
 .vision_button {
@@ -133,6 +137,12 @@ h3 {
     font-size: 2rem;
     padding: 25px;
     border: 1px solid #c78c06;
+}
+
+.team_container {
+    width: 100%;
+    background-color: #ffe6ac;
+    margin: 10px;
 }
 
 @media screen and (max-width: 760px) {
