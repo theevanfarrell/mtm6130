@@ -23,12 +23,15 @@ nav ul li:nth-child(1) a {
 }
 
 .search_btn {
-    padding-top: 6px;
-    width: 93%;
+    width: 95%;
     height: 40px;
 }
 
-.search {
+.search_bar {
+    display: flex;
+}
+
+.search_icon {
     background-color: #222;
     width: 39px;
     height: 39px;
