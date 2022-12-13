@@ -171,7 +171,24 @@ h5 {
 }
 
 .contact_padding {
-    margin-left: 5px;
+    margin-left: 4px;
+}
+
+table {
+    width: 100%;
+}
+
+th{
+    background-color: #ffe6ac;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black
+}
+
+td{
+    text-align: left;
+    padding: 15px;
+    border: 2px solid black
 }
 
 
