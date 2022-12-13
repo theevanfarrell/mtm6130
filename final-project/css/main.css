@@ -191,6 +191,9 @@ td{
     border: 2px solid black
 }
 
+iframe {
+    width: 100%;
+}
 
 @media screen and (max-width: 760px) {
     .nav {
