@@ -195,6 +195,15 @@ iframe {
     width: 100%;
 }
 
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+.unsplash {
+    text-decoration: underline;
+    color: #c78c06;
+}
 @media screen and (max-width: 760px) {
     .nav {
         display:inline-block;
